@@ -15,7 +15,7 @@ create table Users (
 create table Courses (
   course_id int,
   course_name varchar(255),
-  educator_id int,
+  teacher_id int,
 
   primary key (course_id),
   foreign key (educator_id) references Users(user_id)
